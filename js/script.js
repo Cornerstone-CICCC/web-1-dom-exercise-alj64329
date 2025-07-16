@@ -15,9 +15,10 @@ btn1.addEventListener("click", ()=>{
 
 btn2.addEventListener("click", ()=>{
     const output2 = document.getElementById("output2")
-    const text = "Hello world"
+    const span = document.createElement("span")
+    span.textContent = "Hello world"
 
-    output2.append(text)
+    output2.append(span)
 })
 
 btn3.addEventListener("click", ()=>{
